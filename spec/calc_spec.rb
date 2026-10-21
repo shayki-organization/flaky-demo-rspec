@@ -26,6 +26,11 @@ RSpec.describe 'calc flaky' do
     expect(add(1, 1)).to eq(2)
   end
 
+  it 'flaky: fails on first attempt only' do
+    raise 'flaky: simulated first-attempt failure (GITHUB_RUN_ATTEMPT=1)' if ENV['GITHUB_RUN_ATTEMPT'] == '1'
+    expect(add(1, 1)).to eq(2)
+  end
+
   it 'flaky: multiplies under contention' do
     raise 'flaky: simulated contention in multiplier' if rand < 0.4
     expect(mul(3, 3)).to eq(9)
