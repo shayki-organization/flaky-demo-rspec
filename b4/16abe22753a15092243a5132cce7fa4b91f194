@@ -1,0 +1,19 @@
+spec/calc_spec.rb
+  s_2b4d4531607f43::t_32bd450f0bdd1e 29-33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b416abe22753a15092243a5132cce7fa4b91f194",
+  "prompts": {},
+  "sessions": {
+    "s_2b4d4531607f43": {
+      "agent_id": {
+        "tool": "windsurf",
+        "id": "stealth-giraffe",
+        "model": "unknown"
+      },
+      "human_author": "Shayki Abramczyk <shayki5@gmail.com>"
+    }
+  }
+}
