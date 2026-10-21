@@ -1,0 +1,22 @@
+.github/workflows/tests.yml
+  h_75d26f28339534 1-18
+.gitignore
+  h_75d26f28339534 1-2
+Gemfile
+  h_75d26f28339534 1-3
+README.md
+  h_75d26f28339534 1-9
+spec/calc_spec.rb
+  h_75d26f28339534 1-33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "54ad41fcaadd6ab0d59259fdb8d44b111278b0ed",
+  "prompts": {},
+  "humans": {
+    "h_75d26f28339534": {
+      "author": "Shayki Abramczyk <shayki5@gmail.com>"
+    }
+  }
+}
